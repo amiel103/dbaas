@@ -1,8 +1,6 @@
 from sqlalchemy import create_engine, inspect
 from sqlalchemy import text
 
-DATABASE_URL=postgresql://sample_db_ohkx_user:y9LO4UxXeBSTB3HU4hLMH20Jsu5EPhYp@dpg-cvmdti15pdvs73cr9jh0-a.singapore-postgres.render.com/sample_db_ohkx
-
 import os
 from dotenv import load_dotenv
 load_dotenv()
